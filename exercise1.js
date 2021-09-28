@@ -20,7 +20,7 @@ function showTime() {
     min = min < 10 ? "0" + min : min;
     sec = sec < 10 ? "0" + sec : sec;
 
-    let liveTime = hour + ":" + min + ":" + sec + text;
+    let liveTime = hour + ":" + min + ":" + sec + "  " + text;
     console.log(liveTime);
     var months = ['January', 'February', 'March', 'April', 'May', 'June',
         'July', 'August', 'September', 'October', 'November', 'December'];
